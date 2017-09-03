@@ -16,6 +16,7 @@ public class Ruby extends Decorator {
 		this.amount = amount;
 	}
 
+	@Override
 	public String getName() {
 		if (amount == 1)
 			return "增加了红宝石的" + weapon.getName();

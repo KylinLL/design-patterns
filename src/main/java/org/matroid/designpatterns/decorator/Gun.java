@@ -9,10 +9,12 @@ public class Gun implements IWeapon {
 		this.name = name;
 	}
 
+	@Override
 	public String getName() {
 		return name;
 	}
 
+	@Override
 	public int getAttack() {
 		return 200;
 	}

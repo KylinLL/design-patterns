@@ -1,6 +1,6 @@
 package org.matroid.designpatterns.decorator;
 
-public class Test {
+public class Main {
 
 	public static void main(String[] args) {
 		IRole r = new Gunmen("枪手");
